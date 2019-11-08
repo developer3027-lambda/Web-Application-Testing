@@ -1,3 +1,10 @@
+.border {
+    border: 2px solid white;
+    background: #3D6424;
+    border-radius: 3px;
+    padding: 0 15%;
+}
+
 .topScore {
     display: flex;
     justify-content: space-between;
@@ -13,7 +20,8 @@
 
 .home {
     display: flex;
-
+    background: #4A6936;
+    padding: 0 1em;
     flex-direction: column;
     justify-content: center;
     align-content: center;
@@ -21,6 +29,8 @@
 
 .inn {
     display: flex;
+    background: #4A6936;
+    padding: 0 1em;
     margin: 0 2em;
     flex-direction: column;
     justify-content: center;
@@ -29,7 +39,8 @@
 
 .guest {
     display: flex;
-
+    background: #4A6936;
+    padding: 0 1em;
     flex-direction: column;
     justify-content: center;
     align-content: center;
@@ -46,6 +57,8 @@
 .bottomScore {
     display: flex;
     justify-content: space-between;
+    background: #4A6936;
+    padding: 0 1em;
 }
 
 .ball {

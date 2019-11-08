@@ -2,15 +2,15 @@ import React, { useState } from 'react';
 import './scoreboard.css';
 
 
-function Scoreboard() {
+function Scoreboard(props) {
 
     return(
-        <div>
+        <div className="border">
             <div className="topScore">
                 
                 <div className="home">
-                    <h2>Home</h2>
-                    <p>04</p>
+                    <h2>Hit</h2>
+                    <p>{props.hit}</p>
                 </div>
                 <div className="inn">
                     <h2>Inn</h2>
@@ -29,11 +29,11 @@ function Scoreboard() {
                 </div>
                 <div className="ball">
                     <h3>Ball</h3>
-                    <p>02</p>
+                    <p>{props.ball}</p>
                 </div>
                 <div className="strike">
                     <h3>Strike</h3>
-                    <p>01</p>
+                    <p>{props.strike}</p>
                 </div>
                 <div className="pitch">
                     <h3>Pitch</h3>
