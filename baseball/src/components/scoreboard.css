@@ -1,0 +1,77 @@
+.border {
+    border: 2px solid white;
+    background: #3D6424;
+    border-radius: 3px;
+    padding: 0 15%;
+}
+
+.topScore {
+    display: flex;
+    justify-content: space-between;
+}
+
+.atBat {
+    display: flex;
+    margin-right: 2em;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.home {
+    display: flex;
+    background: #4A6936;
+    padding: 0 1em;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.inn {
+    display: flex;
+    background: #4A6936;
+    padding: 0 1em;
+    margin: 0 2em;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.guest {
+    display: flex;
+    background: #4A6936;
+    padding: 0 1em;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.pitch {
+    display: flex;
+    margin-left: 2em;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.bottomScore {
+    display: flex;
+    justify-content: space-between;
+    background: #4A6936;
+    padding: 0 1em;
+}
+
+.ball {
+    display: flex;
+    margin-right: 2em;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.strike {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
